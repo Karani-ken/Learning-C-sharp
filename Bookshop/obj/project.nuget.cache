@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "10AMk5bM7YFGrldJI4dLxUoIMy00BgEOu5Nrn/T7crIFMpcKBNR90TROsoIxHjj4QOhrmOSUxW5PIN0GJ+mg1w==",
+  "dgSpecHash": "uyTroX1d1NWYcNdeqPyKjrAvmf32jrg26h1y+tbmPajmlMUPgVS3iE+itvdRiI4CLsvtVSBHB3xGyAlSDI7dfQ==",
   "success": true,
   "projectFilePath": "D:\\Ken's\\C#\\Bookshop\\Bookshop.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\DERIYUT\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
