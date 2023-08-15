@@ -1,0 +1,14 @@
+D:\Ken's\C#\InterfacePractice\bin\Debug\net6.0\InterfacePractice.exe
+D:\Ken's\C#\InterfacePractice\bin\Debug\net6.0\InterfacePractice.deps.json
+D:\Ken's\C#\InterfacePractice\bin\Debug\net6.0\InterfacePractice.runtimeconfig.json
+D:\Ken's\C#\InterfacePractice\bin\Debug\net6.0\InterfacePractice.dll
+D:\Ken's\C#\InterfacePractice\bin\Debug\net6.0\InterfacePractice.pdb
+D:\Ken's\C#\InterfacePractice\obj\Debug\net6.0\InterfacePractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ken's\C#\InterfacePractice\obj\Debug\net6.0\InterfacePractice.AssemblyInfoInputs.cache
+D:\Ken's\C#\InterfacePractice\obj\Debug\net6.0\InterfacePractice.AssemblyInfo.cs
+D:\Ken's\C#\InterfacePractice\obj\Debug\net6.0\InterfacePractice.csproj.CoreCompileInputs.cache
+D:\Ken's\C#\InterfacePractice\obj\Debug\net6.0\InterfacePractice.dll
+D:\Ken's\C#\InterfacePractice\obj\Debug\net6.0\refint\InterfacePractice.dll
+D:\Ken's\C#\InterfacePractice\obj\Debug\net6.0\InterfacePractice.pdb
+D:\Ken's\C#\InterfacePractice\obj\Debug\net6.0\InterfacePractice.genruntimeconfig.cache
+D:\Ken's\C#\InterfacePractice\obj\Debug\net6.0\ref\InterfacePractice.dll

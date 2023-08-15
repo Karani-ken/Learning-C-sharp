@@ -1,0 +1,14 @@
+D:\Ken's\C#\control-flow\bin\Debug\net6.0\control-flow.exe
+D:\Ken's\C#\control-flow\bin\Debug\net6.0\control-flow.deps.json
+D:\Ken's\C#\control-flow\bin\Debug\net6.0\control-flow.runtimeconfig.json
+D:\Ken's\C#\control-flow\bin\Debug\net6.0\control-flow.dll
+D:\Ken's\C#\control-flow\bin\Debug\net6.0\control-flow.pdb
+D:\Ken's\C#\control-flow\obj\Debug\net6.0\control-flow.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ken's\C#\control-flow\obj\Debug\net6.0\control-flow.AssemblyInfoInputs.cache
+D:\Ken's\C#\control-flow\obj\Debug\net6.0\control-flow.AssemblyInfo.cs
+D:\Ken's\C#\control-flow\obj\Debug\net6.0\control-flow.csproj.CoreCompileInputs.cache
+D:\Ken's\C#\control-flow\obj\Debug\net6.0\control-flow.dll
+D:\Ken's\C#\control-flow\obj\Debug\net6.0\refint\control-flow.dll
+D:\Ken's\C#\control-flow\obj\Debug\net6.0\control-flow.pdb
+D:\Ken's\C#\control-flow\obj\Debug\net6.0\control-flow.genruntimeconfig.cache
+D:\Ken's\C#\control-flow\obj\Debug\net6.0\ref\control-flow.dll

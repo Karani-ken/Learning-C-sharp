@@ -1,0 +1,14 @@
+D:\Ken's\C#\Word Count\bin\Debug\net6.0\Word Count.exe
+D:\Ken's\C#\Word Count\bin\Debug\net6.0\Word Count.deps.json
+D:\Ken's\C#\Word Count\bin\Debug\net6.0\Word Count.runtimeconfig.json
+D:\Ken's\C#\Word Count\bin\Debug\net6.0\Word Count.dll
+D:\Ken's\C#\Word Count\bin\Debug\net6.0\Word Count.pdb
+D:\Ken's\C#\Word Count\obj\Debug\net6.0\Word Count.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ken's\C#\Word Count\obj\Debug\net6.0\Word Count.AssemblyInfoInputs.cache
+D:\Ken's\C#\Word Count\obj\Debug\net6.0\Word Count.AssemblyInfo.cs
+D:\Ken's\C#\Word Count\obj\Debug\net6.0\Word Count.csproj.CoreCompileInputs.cache
+D:\Ken's\C#\Word Count\obj\Debug\net6.0\Word Count.dll
+D:\Ken's\C#\Word Count\obj\Debug\net6.0\refint\Word Count.dll
+D:\Ken's\C#\Word Count\obj\Debug\net6.0\Word Count.pdb
+D:\Ken's\C#\Word Count\obj\Debug\net6.0\Word Count.genruntimeconfig.cache
+D:\Ken's\C#\Word Count\obj\Debug\net6.0\ref\Word Count.dll

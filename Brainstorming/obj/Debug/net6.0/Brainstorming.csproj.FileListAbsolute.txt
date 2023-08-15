@@ -1,0 +1,14 @@
+D:\Ken's\C#\Brainstorming\bin\Debug\net6.0\Brainstorming.exe
+D:\Ken's\C#\Brainstorming\bin\Debug\net6.0\Brainstorming.deps.json
+D:\Ken's\C#\Brainstorming\bin\Debug\net6.0\Brainstorming.runtimeconfig.json
+D:\Ken's\C#\Brainstorming\bin\Debug\net6.0\Brainstorming.dll
+D:\Ken's\C#\Brainstorming\bin\Debug\net6.0\Brainstorming.pdb
+D:\Ken's\C#\Brainstorming\obj\Debug\net6.0\Brainstorming.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ken's\C#\Brainstorming\obj\Debug\net6.0\Brainstorming.AssemblyInfoInputs.cache
+D:\Ken's\C#\Brainstorming\obj\Debug\net6.0\Brainstorming.AssemblyInfo.cs
+D:\Ken's\C#\Brainstorming\obj\Debug\net6.0\Brainstorming.csproj.CoreCompileInputs.cache
+D:\Ken's\C#\Brainstorming\obj\Debug\net6.0\Brainstorming.dll
+D:\Ken's\C#\Brainstorming\obj\Debug\net6.0\refint\Brainstorming.dll
+D:\Ken's\C#\Brainstorming\obj\Debug\net6.0\Brainstorming.pdb
+D:\Ken's\C#\Brainstorming\obj\Debug\net6.0\Brainstorming.genruntimeconfig.cache
+D:\Ken's\C#\Brainstorming\obj\Debug\net6.0\ref\Brainstorming.dll
