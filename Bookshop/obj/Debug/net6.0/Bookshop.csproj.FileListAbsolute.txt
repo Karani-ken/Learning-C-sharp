@@ -12,3 +12,6 @@ D:\Ken's\C#\Bookshop\obj\Debug\net6.0\refint\Bookshop.dll
 D:\Ken's\C#\Bookshop\obj\Debug\net6.0\Bookshop.pdb
 D:\Ken's\C#\Bookshop\obj\Debug\net6.0\Bookshop.genruntimeconfig.cache
 D:\Ken's\C#\Bookshop\obj\Debug\net6.0\ref\Bookshop.dll
+D:\Ken's\C#\Bookshop\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Ken's\C#\Bookshop\obj\Debug\net6.0\Bookshop.csproj.AssemblyReference.cache
+D:\Ken's\C#\Bookshop\obj\Debug\net6.0\Bookshop.csproj.CopyComplete
