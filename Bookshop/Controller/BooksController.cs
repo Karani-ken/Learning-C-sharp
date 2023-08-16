@@ -14,7 +14,7 @@ namespace Bookshop.Controller
     {
         BookService bookService = new BookService();
         //communicates with the service
-        public static void Init() //static method
+        public async static Task Init() //static method
         {
             Console.WriteLine("Hello welcome to The Jitu bookshop");
             Console.WriteLine("1.Add a Book");
@@ -25,11 +25,11 @@ namespace Bookshop.Controller
             var validateResults=Validate.Validation(new List<string> { input });
             if (!validateResults)
             {
-                BooksController.Init();
+               await BooksController.Init();
             }
             else
             {
-                new BooksController().MenuRedirect(input);  //instance method
+                await new BooksController().MenuRedirect(input);  //instance method
             }
         }
 
@@ -41,16 +41,16 @@ namespace Bookshop.Controller
                    await AddnewBook();
                     break;
                 case "2":
-                    ViewBooks();
+                    await ViewBooks();
                     break;
                 case "3":
-                    UpdateBook();
+                   await UpdateBook();
                     break;
                 case "4":
-                    DeleteBook();
+                   await  DeleteBook();
                     break;
                 default:
-                    BooksController.Init();
+                   BooksController.Init();
                     break;
 
             }
@@ -58,19 +58,19 @@ namespace Bookshop.Controller
         public async Task AddnewBook()
         {
             Console.WriteLine("Enter book Title");
-            var title = Console.ReadLine();
+            string Booktitle = Console.ReadLine();
             Console.WriteLine("Enter book Description");
-            var Description = Console.ReadLine();
+            string Bookdesc = Console.ReadLine();
             Console.WriteLine("Enter book Author");
-            var Author = Console.ReadLine();
+            string BookAuthor = Console.ReadLine();
             Console.WriteLine("Enter book Price");
-            var Price = Console.ReadLine();
+            string Bookprice = Console.ReadLine();
             var newBook = new AddBook()
             {
-                Title=title,
-                Description=Description,
-                Author=Author,
-                Price=Price 
+                Title=Booktitle,
+                Description=Bookdesc,
+                Author= BookAuthor,
+                Price=Bookprice
             };
             try
             {
@@ -83,7 +83,7 @@ namespace Bookshop.Controller
             }
 
         }
-        public async void ViewBooks()
+        public async Task ViewBooks()
         {
             try
             {
@@ -99,10 +99,49 @@ namespace Bookshop.Controller
         }
         public async Task UpdateBook()
         {
-
+            await ViewBooks();
+            Console.WriteLine("Enter the Id of the book tou want to edit");
+            var id = Console.ReadLine();
+            Console.WriteLine("Enter book Title");
+            string Booktitle = Console.ReadLine();
+            Console.WriteLine("Enter book Description");
+            string Bookdesc = Console.ReadLine();
+            Console.WriteLine("Enter book Author");
+            string BookAuthor = Console.ReadLine();
+            Console.WriteLine("Enter book Price");
+            string Bookprice = Console.ReadLine();
+            var updatedBook = new Book()
+            {
+                Id=id,
+                Title = Booktitle,
+                Description = Bookdesc,
+                Author = BookAuthor,
+                Price = Bookprice
+            };
+            try
+            {
+               var res = await bookService.UpdateBookAsync(updatedBook);
+                await Console.Out.WriteLineAsync(res.Message);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
         public async Task DeleteBook()
         {
+            await ViewBooks();
+            Console.WriteLine("Enter the Id of the book tou want to edit");
+            var id = Console.ReadLine();
+            try
+            {
+                var res = await bookService.DeleteBookAsync(id);
+                await Console.Out.WriteLineAsync(res.Message);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
         }
 

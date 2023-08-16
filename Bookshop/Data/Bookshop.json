@@ -1,8 +1,20 @@
 {
   "books": [
     {
-      "Id": 1,
-      "bookname": "example"
+      "Id": "1",
+      "Title": "C# for Beginners",
+      "Description": "The best C# book",
+      "Author": "Kenneth K",
+      "Price": "5000",
+      "id": 1
+    },
+    {
+      "Id": "2",
+      "Title": "Javascript for beginners",
+      "Description": "the best Javascript book",
+      "Author": "Karani K",
+      "Price": "2000",
+      "id": 2
     }
   ]
 }

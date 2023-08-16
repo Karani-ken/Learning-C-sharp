@@ -21,7 +21,7 @@ namespace Bookshop.Services
         public async Task<SuccessMessage> CreateBookAsync(AddBook book)
         {
             var content = JsonConvert.SerializeObject(book);
-            var bodyContent = new StringContent(content, Encoding.UTF8,"appplication/json" );
+            var bodyContent = new StringContent(content, Encoding.UTF8,"application/json" );
             var response = await _httpClient.PostAsync(_url, bodyContent);
             if (response.IsSuccessStatusCode)
             {
@@ -68,7 +68,7 @@ namespace Bookshop.Services
         public async Task<SuccessMessage> UpdateBookAsync(Book book)
         {
             var content = JsonConvert.SerializeObject(book);
-            var bodyContent = new StringContent(content, Encoding.UTF8, "appplication/json");
+            var bodyContent = new StringContent(content, Encoding.UTF8, "application/json");
             var response = await _httpClient.PutAsync(_url + "/" + book.Id,bodyContent);
             if (response.IsSuccessStatusCode)
             {

@@ -1,3 +1,9 @@
 ﻿using Bookshop.Controller;
 
-BooksController.Init();
+class program
+{
+    public async static Task Main()
+    {
+        await BooksController.Init();
+    }
+}
